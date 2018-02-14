@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/captures
+.idea
+#gradle
+build
+*.bak
+#*Test.java
+#*Tests.java
+#app/src/androidTest
+#app/src/test
+#app/src/main
+#gradlew
+#gradlew.bat
