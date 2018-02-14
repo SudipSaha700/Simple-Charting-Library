@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hsl_bar_chart_label">
+        <LinearLayout
+            android:id="@+id/ll_bar_chart_y_title"
+            android:layout_width="@dimen/bar_chart_axis_title_text_size"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/tv_bar_chart_x_title"
+            android:orientation="vertical"/>
+        <LinearLayout
+            android:id="@+id/ll_bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_above="@+id/tv_bar_chart_x_title"
+            android:layout_toRightOf="@+id/ll_bar_chart_y_title"/>
+        <TextView
+            android:id="@+id/tv_bar_chart_x_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/bar_chart_axis_title_text_size"/>
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:id="@+id/hsl_bar_chart_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:id="@+id/ll_bar_chart_label_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@android:color/white"/>
+    </HorizontalScrollView>
+</RelativeLayout>

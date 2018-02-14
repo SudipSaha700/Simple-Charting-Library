@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_chart_axis_title_text_size">16sp</dimen>
+    <dimen name="label_text_size">16sp</dimen>
+    <dimen name="label_desc_text_margin">10dp</dimen>
+    <dimen name="ll_label_padding">5dp</dimen>
+</resources>
