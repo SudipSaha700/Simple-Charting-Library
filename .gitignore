@@ -12,5 +12,8 @@ build
 #app/src/androidTest
 #app/src/test
 #app/src/main
+#simplechartslibrary/src/androidTest
+#simplechartslibrary/src/test
+#simplechartslibrary/src/main
 #gradlew
 #gradlew.bat
