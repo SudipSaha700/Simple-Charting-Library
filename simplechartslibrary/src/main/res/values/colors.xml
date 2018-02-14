@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#59b6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#4096c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="graphColumnBackgroundColor">#eaf3f2</color>
+    <color name="graphColumnInitialColor">#f0eb68</color>
+    <color name="graphColumnDataColor">#9cd47d</color>
+    <color name="graphAxisGradingTextColor">#0e675f</color>
+</resources>

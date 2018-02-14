@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sudips.simplechartapplication.view.activities.CustomChartActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/rl_bar_chart_container"
+        android:layout_weight="1"
+        android:background="@color/chartreuse"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/rl_pie_chart_container"
+        android:layout_weight="1"
+        android:background="#A9E2F3"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/rl_line_graph_container"
+        android:layout_weight="1"
+        android:background="@color/chartreuse"/>
+</LinearLayout>
